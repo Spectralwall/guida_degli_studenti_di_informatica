@@ -357,7 +357,7 @@ Nel caso dei bi-grammi la probabilità è riscrivibile come $$ P(w_i|w_{i−1}) 
 
 Che è quindi la probabilià di del bi-gramma diviso la probabilità della parola.
 
-Andiamo ora a fare una piccola aggiunta, ovvero aggiungere un tag all'inizio e alla fine di tutte le frasi del corpus (il tag $<s>$). Questo ci permette di gestire meglio i bordi, necessario per stimare le probabilità delle parole iniziali e finali, e di non avere problemi con le parole che sono all'inizio o alla fine della frase.
+Andiamo ora a fare una piccola aggiunta, ovvero aggiungere un tag all'inizio e alla fine di tutte le frasi del corpus (il tag <$s$>). Questo ci permette di gestire meglio i bordi, necessario per stimare le probabilità delle parole iniziali e finali, e di non avere problemi con le parole che sono all'inizio o alla fine della frase.
 
 ### Sequence generation
 
